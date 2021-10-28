@@ -83,4 +83,35 @@
    transition-duration: 0.3s;
 }
 
+.imagetop {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container1 {
+  position: relative;
+
+}
+
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url('https://media.giphy.com/media/qPlOGioMZiERgkgMFI/giphy.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
 
