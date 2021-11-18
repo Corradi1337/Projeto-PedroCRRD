@@ -26,7 +26,7 @@
   width: 50px;
   height: 50px;
 }
-
+/* Background gradient padrão */
 .background {
 	background: linear-gradient(-45deg,#f8a9ff, #a8e8ff);
 	background-size: 400% 400%;
@@ -45,7 +45,7 @@
 		background-position: 0% 50%;
 	}
 }
-
+/* Background gradient services */
 .background1{
 	background: linear-gradient(-45deg,#a8ffcf, #ffbca8);
 	background-size: 400% 400%;
@@ -64,6 +64,7 @@
 		background-position: 0% 50%;
 	}
 }
+/* Background gradient id somente para "sobre mim" */
 #background-contato{
 	background: linear-gradient(-45deg,#cdffd0, #fff9c4,#ffc0c0 );
 	background-size: 400% 400%;
@@ -83,6 +84,7 @@
 	}
 }
 
+/* icone do "inicio" gradient estático */
 .feature-icon{  
     display: inline-flex;
     align-items: center;
@@ -95,7 +97,7 @@
     border-radius: .75rem;
     background: linear-gradient(45deg,#66a3ff,#9999ff)
 }
-
+/* Botão com redirecionamento para o "portifólio" */
 #cor-inicio{
  border-style:  ridge;
  color:#d4ffe2;
@@ -111,7 +113,7 @@
   background-color:#b1b1b1;
    transition-duration: 0.3s;
 }
-
+/* Botão inside "portifólio" */
 #cor-port{
   border-style:  ridge;
  color:#6e6e6e;
@@ -127,7 +129,7 @@
   background-color:#b1b1b1;
    transition-duration: 0.3s;
 }
-
+/* Imagens cardbox fill */
 .imagetop {
   position:absolute;
   display: block;
@@ -186,7 +188,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* Botão de direcionamento de páginas no Nav bar header*/
 .selected{
 color: #595959;
 

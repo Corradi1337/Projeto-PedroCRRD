@@ -12,6 +12,7 @@ inputName.addEventListener("keypress", function(e) {
   /* Mudar o nome do botão para enviado */
 function displaySend() {
   document.getElementById("Enviado").innerHTML = "Enviado";
+  document.getElementsById("Enviado").style.backgroundColor = "#ccf7ff";
 }
 
 /* teste forçar preenchimento das box */
